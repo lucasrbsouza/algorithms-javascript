@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // le valor da conta e numero de clientes a pagar
+        var valorDaConta = Number(prompt('Qual o valor da conta: '))
+        var numeroDeClientes = Number(prompt('Qual o numero de Clientes: '))
+        
+        // calcular o valor por cliente
+
+        var valorPorCliente = valorDaConta/numeroDeClientes
+
+        // mostra valor na tela
+
+        alert(` Valor da Conta R$: ${valorDaConta.toFixed(2)};
+            Numero de Clientes: ${numeroDeClientes};
+            Valor por Cliente R$: ${valorPorCliente.toFixed(2)}
+        `)
+
+
+
+    </script>
+</body>
+</html>

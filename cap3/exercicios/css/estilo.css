@@ -1,0 +1,12 @@
+img { float: left; height: 300px; width: 300px; }
+h1 { border-bottom-style: inset;}
+
+h1, p, h3{
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

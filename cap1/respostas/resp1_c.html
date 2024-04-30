@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // le preço
+        var preco = Number(prompt('Qual o preço do produto: '))
+
+        // calcular o valor de pagamento a vista, e parcelado em 3x
+        var aVista = preco - (preco * 0.10);
+        var parcelado3x = preco/3
+
+        alert(`Preço R$: ${preco.toFixed(2)};
+        À Vista R$: ${aVista.toFixed(2)}
+        Ou 3x de R$: ${parcelado3x.toFixed(2)}`)
+
+    </script>
+</body>
+</html>

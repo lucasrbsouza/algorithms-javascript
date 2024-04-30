@@ -1,0 +1,52 @@
+
+img { float: left; height: 300px; width: 300px; }
+h1 { border-bottom-style: inset;}
+
+h1, p, h3{
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h3{
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 30%;
+    margin: auto;
+    
+}
+
+input[type="button"] {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Remove a borda padrão */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Muda o cursor para um ponteiro quando você passa o mouse sobre o botão */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Estilo para quando o botão é passado com o mouse */
+input[type="button"]:hover {
+    background-color: #45a049; /* Muda a cor de fundo */
+}
+input[type="text"] {
+    width: 30%; /* Largura total */
+    padding: 12px 20px; /* Espaçamento interno */
+    margin: 8px 0; /* Margem externa */
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+    border: 2px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Bordas arredondadas */
+    text-align: center;
+}
+
+/* Estilo para quando o campo de entrada está em foco */
+input[type="text"]:focus {
+    border-color: #4CAF50; /* Muda a cor da borda para verde */
+}
