@@ -31,5 +31,3 @@ Embora este repositório seja primariamente para meu uso pessoal e aprendizado, 
 MIT
 
 ---
-
-Boa sorte e bons estudos!
